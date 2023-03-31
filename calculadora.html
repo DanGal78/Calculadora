@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/calculadora.css">
+</head>
+
+<body>
+    <h1>Calculadora para Soma e Subtração</h1>
+    <main>
+        <div class="form-group">
+            <label for="valor1">Digite o Primeiro Valor:</label>
+            <input type="number" id="valor1">
+        </div>
+
+        <div class="form-group">
+            <label for="valor2">Digite o Segundo Valor:</label>
+            <input type="number" id="valor2">
+        </div>
+        <div class="form-group">
+            <label for="operacao">Escolha a Operação:</label>
+            <select id="operacao">
+                <option value="soma">Soma</option>
+                <option value="subtracao">Subtração</option>
+            </select>
+        </div>
+        <button class="button" id="calc" onclick="calc()">Calcular</button>
+        
+        <div class="form-group">
+            <label for="resultado">Resultado:</label>
+            <input type="number" id="resultado" readonly>
+        </div>
+
+        <script type="text/javascript" src="js/calculadora.js"></script>
+    </main>
+</body>
+<div class="form-group">
+
+</div>
+
+
+</html>
